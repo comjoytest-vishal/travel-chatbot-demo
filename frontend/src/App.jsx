@@ -24,7 +24,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/chat",
+        "https://travel-chatbot-demo.onrender.com/chat",
         {
           question: userMessage,
         }
